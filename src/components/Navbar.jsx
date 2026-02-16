@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ThemeSwitcher from "./ThemeSwitcher";
 import { Menu, X, ArrowRight, LayoutDashboard, Brain, BarChart3, Map } from "lucide-react";
@@ -5,6 +6,8 @@ import { Menu, X, ArrowRight, LayoutDashboard, Brain, BarChart3, Map } from "luc
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const navigate = useNavigate();
 
   
   useEffect(() => {
@@ -22,10 +25,10 @@ export default function Navbar() {
   }, []);
 
   const menuItems = [
-    { name: "Dashboard", icon: <LayoutDashboard size={18} /> },
-    { name: "Quiz", icon: <Brain size={18} /> },
-    { name: "Analytics", icon: <BarChart3 size={18} /> },
-    { name: "Roadmap", icon: <Map size={18} /> },
+    { name: "Dashboard", path: "/", icon: <LayoutDashboard size={18} /> },
+    { name: "Quiz", path: "/quiz", icon: <Brain size={18} /> },
+    { name: "Analytics", path: "/analytics", icon: <BarChart3 size={18} /> },
+    { name: "Roadmap", path: "/roadmap", icon: <Map size={18} /> },
   ];
 
   return (
@@ -59,6 +62,7 @@ export default function Navbar() {
             {menuItems.map((item) => (
               <button
                 key={item.name}
+                onClick={() => navigate(item.path)}
                 className="px-4 py-2 text-[10px] font-black uppercase tracking-widest opacity-60 hover:opacity-100 hover:bg-[var(--text)]/5 rounded-xl transition-all"
               >
                 {item.name}
@@ -98,7 +102,10 @@ export default function Navbar() {
             {menuItems.map((item, i) => (
               <button
                 key={item.name}
-                onClick={() => setMenuOpen(false)}
+                onClick={() => {
+                  navigate(item.path);
+                  setMenuOpen(false);
+                }}
                 className={`w-full flex items-center justify-between p-5 rounded-2xl border border-[var(--text)]/10 bg-[var(--text)]/5 transition-all active:scale-95
                 ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
                 style={{ transitionDelay: `${i * 75}ms` }}

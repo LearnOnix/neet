@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "exam": "NEET",
+    "totalQuestions": 15,
+    "latexEnabled": false
+  },
+  "questions": [
+
+
+    {
+      "uid": "PHY-001",
+      "subject": "Physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "Medium",
+      "question": "A force of 10 N acts on a body of mass 2 kg. What is the acceleration of the body?",
+      "options": [
+        { "id": 0, "text": "2 m/s^2" },
+        { "id": 1, "text": "5 m/s^2" },
+        { "id": 2, "text": "10 m/s^2" },
+        { "id": 3, "text": "20 m/s^2" }
+      ],
+      "correctId": 1,
+      "explanation": "Using F = ma, acceleration = F/m = 10/2 = 5 m/s^2."
+    },
+
+    {
+      "uid": "PHY-002",
+      "subject": "Physics",
+      "chapter": "Work and Energy",
+      "difficulty": "Easy",
+      "question": "What is the kinetic energy of a 2 kg body moving with velocity 3 m/s?",
+      "options": [
+        { "id": 0, "text": "6 J" },
+        { "id": 1, "text": "9 J" },
+        { "id": 2, "text": "12 J" },
+        { "id": 3, "text": "18 J" }
+      ],
+      "correctId": 1,
+      "explanation": "Kinetic energy = 1/2 mv^2 = 1/2 × 2 × 9 = 9 J."
+    },
+
+    {
+      "uid": "PHY-003",
+      "subject": "Physics",
+      "chapter": "Current Electricity",
+      "difficulty": "Medium",
+      "question": "If a current of 2 A flows through a resistor for 5 seconds, how much charge passes through it?",
+      "options": [
+        { "id": 0, "text": "2 C" },
+        { "id": 1, "text": "5 C" },
+        { "id": 2, "text": "10 C" },
+        { "id": 3, "text": "20 C" }
+      ],
+      "correctId": 2,
+      "explanation": "Charge Q = I × t = 2 × 5 = 10 C."
+    },
+
+    {
+      "uid": "PHY-004",
+      "subject": "Physics",
+      "chapter": "Gravitation",
+      "difficulty": "Medium",
+      "question": "The acceleration due to gravity on Earth is approximately:",
+      "options": [
+        { "id": 0, "text": "8.9 m/s^2" },
+        { "id": 1, "text": "9.8 m/s^2" },
+        { "id": 2, "text": "10.8 m/s^2" },
+        { "id": 3, "text": "12 m/s^2" }
+      ],
+      "correctId": 1,
+      "explanation": "Standard value of g near Earth's surface is 9.8 m/s^2."
+    },
+
+    {
+      "uid": "PHY-005",
+      "subject": "Physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "Medium",
+      "question": "In an isothermal process, which quantity remains constant?",
+      "options": [
+        { "id": 0, "text": "Pressure" },
+        { "id": 1, "text": "Volume" },
+        { "id": 2, "text": "Temperature" },
+        { "id": 3, "text": "Internal Energy" }
+      ],
+      "correctId": 2,
+      "explanation": "In an isothermal process, temperature remains constant."
+    },
+
+    {
+      "uid": "CHE-001",
+      "subject": "Chemistry",
+      "chapter": "Atomic Structure",
+      "difficulty": "Easy",
+      "question": "The atomic number of an element represents:",
+      "options": [
+        { "id": 0, "text": "Number of neutrons" },
+        { "id": 1, "text": "Number of protons" },
+        { "id": 2, "text": "Number of electrons only" },
+        { "id": 3, "text": "Sum of protons and neutrons" }
+      ],
+      "correctId": 1,
+      "explanation": "Atomic number is equal to the number of protons in the nucleus."
+    },
+
+    {
+      "uid": "CHE-002",
+      "subject": "Chemistry",
+      "chapter": "Chemical Bonding",
+      "difficulty": "Medium",
+      "question": "Which bond is formed by sharing of electrons?",
+      "options": [
+        { "id": 0, "text": "Ionic bond" },
+        { "id": 1, "text": "Covalent bond" },
+        { "id": 2, "text": "Metallic bond" },
+        { "id": 3, "text": "Hydrogen bond" }
+      ],
+      "correctId": 1,
+      "explanation": "Covalent bond is formed by sharing of electrons."
+    },
+
+    {
+      "uid": "CHE-003",
+      "subject": "Chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "Medium",
+      "question": "The unit of enthalpy change is:",
+      "options": [
+        { "id": 0, "text": "Joule" },
+        { "id": 1, "text": "Mole" },
+        { "id": 2, "text": "Pascal" },
+        { "id": 3, "text": "Kelvin" }
+      ],
+      "correctId": 0,
+      "explanation": "Enthalpy change is a form of energy and its unit is Joule."
+    },
+
+    {
+      "uid": "CHE-004",
+      "subject": "Chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "Medium",
+      "question": "Le Chatelier's principle is related to:",
+      "options": [
+        { "id": 0, "text": "Chemical equilibrium" },
+        { "id": 1, "text": "Atomic theory" },
+        { "id": 2, "text": "Electrolysis" },
+        { "id": 3, "text": "Radioactivity" }
+      ],
+      "correctId": 0,
+      "explanation": "Le Chatelier's principle explains the shift in chemical equilibrium."
+    },
+
+    {
+      "uid": "CHE-005",
+      "subject": "Chemistry",
+      "chapter": "Periodic Table",
+      "difficulty": "Easy",
+      "question": "Elements in the same group have the same:",
+      "options": [
+        { "id": 0, "text": "Number of shells" },
+        { "id": 1, "text": "Atomic mass" },
+        { "id": 2, "text": "Valence electrons" },
+        { "id": 3, "text": "Number of neutrons" }
+      ],
+      "correctId": 2,
+      "explanation": "Elements in the same group have the same number of valence electrons."
+    },
+
+    {
+      "uid": "BIO-001",
+      "subject": "Biology",
+      "chapter": "Cell Structure",
+      "difficulty": "Easy",
+      "question": "The powerhouse of the cell is:",
+      "options": [
+        { "id": 0, "text": "Nucleus" },
+        { "id": 1, "text": "Mitochondria" },
+        { "id": 2, "text": "Ribosome" },
+        { "id": 3, "text": "Golgi apparatus" }
+      ],
+      "correctId": 1,
+      "explanation": "Mitochondria produce ATP and are known as the powerhouse of the cell."
+    },
+
+    {
+      "uid": "BIO-002",
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "difficulty": "Medium",
+      "question": "Which blood cells help in clotting?",
+      "options": [
+        { "id": 0, "text": "RBC" },
+        { "id": 1, "text": "WBC" },
+        { "id": 2, "text": "Platelets" },
+        { "id": 3, "text": "Plasma" }
+      ],
+      "correctId": 2,
+      "explanation": "Platelets help in blood clotting."
+    },
+
+    {
+      "uid": "BIO-003",
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "difficulty": "Medium",
+      "question": "The basic unit of heredity is:",
+      "options": [
+        { "id": 0, "text": "Chromosome" },
+        { "id": 1, "text": "Gene" },
+        { "id": 2, "text": "Cell" },
+        { "id": 3, "text": "Protein" }
+      ],
+      "correctId": 1,
+      "explanation": "Gene is the basic unit of heredity."
+    },
+
+    {
+      "uid": "BIO-004",
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "difficulty": "Medium",
+      "question": "Photosynthesis occurs in which part of the cell?",
+      "options": [
+        { "id": 0, "text": "Chloroplast" },
+        { "id": 1, "text": "Mitochondria" },
+        { "id": 2, "text": "Nucleus" },
+        { "id": 3, "text": "Cytoplasm" }
+      ],
+      "correctId": 0,
+      "explanation": "Photosynthesis takes place in chloroplast."
+    },
+
+    {
+      "uid": "BIO-005",
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "difficulty": "Medium",
+      "question": "Green plants in an ecosystem are called:",
+      "options": [
+        { "id": 0, "text": "Consumers" },
+        { "id": 1, "text": "Producers" },
+        { "id": 2, "text": "Decomposers" },
+        { "id": 3, "text": "Parasites" }
+      ],
+      "correctId": 1,
+      "explanation": "Green plants prepare their own food and are called producers."
+    }
+
+  ]
+}

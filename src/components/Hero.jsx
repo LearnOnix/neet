@@ -1,7 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import { useTheme } from "../context/ThemeContext";
+
+
 
 export default function HeroSection() {
   const { theme } = useTheme();
+
+  const navigate = useNavigate();
 
   const backgrounds = {
     light: "https://files.idyllic.app/files/static/3317137?width=256&optimizer=image",
@@ -53,7 +58,8 @@ export default function HeroSection() {
         </div>
 
         {/* Main Title */}
-        <h1 className="max-w-3xl text-4xl font-black tracking-tight text-white md:text-6xl lg:text-7xl">
+        <h1 
+        className="max-w-3xl text-4xl font-black tracking-tight text-white md:text-6xl lg:text-7xl">
           Welcome to <br />
           <span className="bg-gradient-to-r from-white via-white/80 to-white/50 bg-clip-text text-transparent">
             FutureDoctor
@@ -68,7 +74,8 @@ export default function HeroSection() {
           </p>
           
           <div className="mt-8 flex gap-4">
-            <button className="rounded-xl bg-white px-8 py-3 text-sm font-bold text-black transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+            <button onClick={() => navigate('/quiz')}
+             className="rounded-xl bg-white px-8 py-3 text-sm font-bold text-black transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
               Get Started
             </button>
             <button className="rounded-xl border border-white/30 bg-white/5 px-8 py-3 text-sm font-bold text-white backdrop-blur-sm transition-all hover:bg-white/10">
